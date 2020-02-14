@@ -76,8 +76,8 @@ function handleClick(e) {
     // get next spot in column (if none, ignore click)
     const y = findSpotForCol(x);
 
-    /*following testing to pass --yCoOrdinate to css
-    let root = document.documentElement;
+    /*following is testing to pass --yCoOrdinate to css
+    let root = document.documentElement;      
     root.style.setProperty('--yCoOrdinate', e.clientY - 450 + "px");
   */
 
