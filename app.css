@@ -5,6 +5,7 @@ body {
 }
 
 .container {
+    display: flex;
     width: 520px;
     height: 458px;
     margin: 0 auto;
